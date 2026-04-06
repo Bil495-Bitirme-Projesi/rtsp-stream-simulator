@@ -1,0 +1,7 @@
+# mediamtx minimal config - tum path'lere anonim push/read izni verir
+logLevel: info
+rtspAddress: :8554
+
+paths:
+  "~^.*$":
+    source: publisher
